@@ -31,9 +31,6 @@ export default function NavBar() {
             onChange={handleSwitch}
           />
         </li>
-        <li>
-          <Link to="/pagetwo">Page Two</Link>
-        </li>
       </ul>
     </div>
   )

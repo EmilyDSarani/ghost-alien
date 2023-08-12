@@ -12,15 +12,6 @@ export default function NavBar() {
 
   function handleSwitch() {
     setNav(!nav)
-    // navUser()
-  }
-
-  function navUser() {
-    if (nav === true) {
-      navigate("/")
-    } else {
-      navigate("/alien")
-    }
   }
 
   useEffect(() => {
